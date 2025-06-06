@@ -3010,13 +3010,17 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background: linear-gradient(45deg, #27ae60, #2ecc71);
+
+  /* background-color: #0d6efd;
+  border-color: #0d6efd; */
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
+  background: linear-gradient(45deg, #229954, #28b463);
+      transform: translateY(-2px);
+  /* background-color: #0b5ed7;
+  border-color: #0a58ca; */
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
